@@ -1,0 +1,13 @@
+name: Parv Shah
+
+on:
+ push:
+  branches: [main]
+
+jobs:
+ push_code:
+  runs-on: ubuntu-latest
+  
+  steps:
+   - name: Greeting
+     run: echo "Hellow"
